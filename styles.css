@@ -30,6 +30,18 @@ body {
   left: 0;
 }
 
+#myEmbeddedScene {
+  width: 100vw;
+  height: 100vh;
+}
+
+a-scene {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
 .btn-group {
   padding: 0px 8%;
   width: 100%;
