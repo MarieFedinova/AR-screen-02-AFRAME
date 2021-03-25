@@ -25,6 +25,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 32px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .btn-group {
@@ -98,7 +101,7 @@ body {
 }
 
 /* to disable landscape mode */
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
   .holder {
     transform: rotate(-90deg);
     transform-origin: left top;
@@ -115,7 +118,7 @@ body {
     width: 23vh;
     height: 6vw;
   }
-}
+} */
 
 /* styles for larger screens */
 @media screen and (min-width: 500px) {
